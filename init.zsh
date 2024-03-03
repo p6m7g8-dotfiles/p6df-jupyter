@@ -21,9 +21,7 @@ p6df::modules::jupyter::deps() {
 ######################################################################
 p6df::modules::jupyter::vscodes() {
 
-  code --install-plugin ms-toolsai.jupyter
-  code --install-plugin ms-toolsai.jupyter-keymap
-  code --install-plugin ms-toolsai.jupyter-renderers
+  code --install-extension ms-toolsai.jupyter
 
   p6_return_void
 }
