@@ -21,7 +21,7 @@ p6df::modules::jupyter::deps() {
 ######################################################################
 p6df::modules::jupyter::vscodes() {
 
-  code --install-extension ms-toolsai.jupyter
+  p6df::modules::vscode::extension::install ms-toolsai.jupyter
 
   p6_return_void
 }
