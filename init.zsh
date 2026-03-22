@@ -35,9 +35,9 @@ p6df::modules::jupyter::vscodes() {
 ######################################################################
 p6df::modules::jupyter::langs() {
 
-  pip install jupyterlab
-  pip install notebook
-  pip install voila
+  uv tool install jupyterlab
+  uv tool install notebook
+  uv tool install voila
 
   p6_return_void
 }
