@@ -55,5 +55,5 @@ p6df::modules::jupyter::langs() {
 ######################################################################
 p6df::modules::jupyter::profile::mod() {
 
-  p6_return_words 'jupyter' '$JUPYTER_PATH'
+  p6_return_words 'jupyter' "$"
 }
