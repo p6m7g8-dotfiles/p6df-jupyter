@@ -41,3 +41,19 @@ p6df::modules::jupyter::langs() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words jupyter $JUPYTER_PATH = p6df::modules::jupyter::profile::mod()
+#
+#  Returns:
+#	words - jupyter $JUPYTER_PATH
+#
+#  Environment:	 JUPYTER_PATH
+#>
+######################################################################
+p6df::modules::jupyter::profile::mod() {
+
+  p6_return_words 'jupyter' '$JUPYTER_PATH'
+}
