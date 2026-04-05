@@ -15,20 +15,6 @@ p6df::modules::jupyter::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::jupyter::vscodes()
-#
-#>
-######################################################################
-p6df::modules::jupyter::vscodes() {
-
-  p6df::modules::vscode::extension::install ms-toolsai.jupyter
-
-  p6_return_void
-}
-
-######################################################################
-#<
-#
 # Function: p6df::modules::jupyter::langs()
 #
 #>
@@ -41,3 +27,17 @@ p6df::modules::jupyter::langs() {
 
   p6_return_void
 }
+######################################################################
+#<
+#
+# Function: p6df::modules::jupyter::vscodes()
+#
+#>
+######################################################################
+p6df::modules::jupyter::vscodes() {
+
+  p6df::modules::vscode::extension::install ms-toolsai.jupyter
+
+  p6_return_void
+}
+
